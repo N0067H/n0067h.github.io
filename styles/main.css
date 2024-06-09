@@ -1,8 +1,21 @@
+
+html {
+    margin: 0;
+    overflow: hidden;
+}
+
 body {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     color: #2c3e50;
+    margin-top: 230px;
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    position: relative;
+    height: 100vh;
     text-align: center;
-    margin-top: 100px;
 }
 
 #year-slider {
@@ -11,10 +24,18 @@ body {
 
 .year-selector {
     position: absolute;
-    bottom: 120px;
+    bottom: 540px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
 }
 
+.down-allow {
+    position: absolute;
+    bottom: 220px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

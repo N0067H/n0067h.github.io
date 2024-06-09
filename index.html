@@ -7,27 +7,31 @@
     <link rel="icon" type="image/x-icon" href="./images/ferrispenic.png">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/animation.css">
+    <script src="http://code.jquery.com/jquery-latest.js" defer="defer"></script>
     <script src="./scripts/contents.js" defer="defer"></script>
     <script src="./scripts/journey.js" defer="defer"></script>
+    <script src="./scripts/section.js" defer="defer"></script>
     <title>NoobTh</title>
 </head>
 
 <body>
-    <img class="rotating-image" src="./images/ferrispenic.png">
-    <div class="welcome">
-        <h1>Welcome to NoobTh</h1>
-        <p>I'm a student developer interested in Compiler Engineering.</p>
+    <div class="section">
+        <img class="rotating-image" src="./images/ferrispenic.png">
+        <div class="welcome">
+            <h1>Welcome to NoobTh</h1>
+            <p>I'm a student developer interested in Compiler Engineering.</p>
+        </div>
+        <p class="down-allow">Scroll down<br>▼</p>
     </div>
+    <div class="section">
+        <h1>Time to look at my journey now</h1>
+        <div class="journey">
+            <div id="year-content"></div>
 
-    <br>
-
-    <h2>Time to look at my journey now</h2>
-    <div class="journey">
-        <div id="year-content"></div>
-
-        <div class="year-selector">
-            <input oninput="changeYear(this)" id="year-slider" type="range" min=2018 max=2024 value=2018><br>
-            My <span id="year-display">2018</span>
+            <div class="year-selector">
+                <input oninput="changeYear(this)" id="year-slider" type="range" min=2018 max=2024 value=2018><br>
+                My <span id="year-display">2018</span>
+            </div>
         </div>
     </div>
 </body>
