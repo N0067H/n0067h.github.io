@@ -4,31 +4,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>NoobTh</title>
     <link rel="icon" type="image/x-icon" href="./images/ferrispenic.png">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/animation.css">
     <script src="./scripts/contents.js" defer="defer"></script>
     <script src="./scripts/journey.js" defer="defer"></script>
+    <title>NoobTh</title>
 </head>
 
 <body>
+    <div class="cursor"></div>
+
     <img class="rotating-image" src="./images/ferrispenic.png">
     <div class="welcome">
         <h1>Welcome to NoobTh</h1>
         <p>I'm a student developer interested in Compiler Engineering.</p>
     </div>
-    <br>
-    <div class="journey">
-        <h2>Time to look at my journey now</h2>
 
+    <br>
+
+    <h2>Time to look at my journey now</h2>
+    <div class="journey">
         <div id="year-content"></div>
 
-        <br><br>
-
-        <div>
+        <div class="year-selector">
             My <span id="year-display">2018</span><br>
-            <input oninput="changeYear(this)" id="year-changer" type="range" min=2018 max=2024 value=2018>
+            <input oninput="changeYear(this)" id="year-slider" type="range" min=2018 max=2024 value=2018>
         </div>
     </div>
 </body>

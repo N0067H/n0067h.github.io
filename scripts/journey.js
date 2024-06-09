@@ -7,5 +7,5 @@ const changeYear = (element) => {
     yearContent.innerHTML = yearContents[element.value - 2018]
 }
 
-changeYear(document.getElementById("year-changer"))
+changeYear(document.getElementById("year-slider"))
 
