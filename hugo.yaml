@@ -3,6 +3,18 @@ languageCode: ko-KR
 title: NoobTh
 theme: ["PaperMod"]
 
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 2
+
 params:
   defaultTheme: light
 
