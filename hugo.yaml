@@ -1,0 +1,16 @@
+baseURL: https://n0067h.github.io/
+languageCode: ko-KR
+title: NoobTh
+theme: ["PaperMod"]
+
+params:
+  defaultTheme: light
+
+  homeInfoParams:
+    Title: "NoobTh (류승엽)"
+    Content: "컴파일러와 네트워크에 관심이 많은 고등학생 개발자입니다."
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/n0067h"
+
