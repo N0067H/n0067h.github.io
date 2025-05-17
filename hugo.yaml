@@ -21,6 +21,10 @@ menu:
       wegith: 3
 
 params:
+  ShowReadingTime: true
+
+  ShowToc: true
+
   defaultTheme: light
 
   homeInfoParams:
