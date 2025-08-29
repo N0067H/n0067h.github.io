@@ -15,8 +15,8 @@ menu:
       url: /tags/
       weight: 2
 
-    - identifier: minor
-      name: Minor
+    - identifier: Devlog
+      name: devlog
       url: https://blog.naver.com/n0067h
       weigth: 3
 
